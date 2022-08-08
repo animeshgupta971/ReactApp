@@ -1,11 +1,11 @@
 import React from 'react'
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 const Navbar = () => {
   return (
     <>
     <nav className="">
             <div className="">
-                <ul className="nav--wrapper">
+                {/* <ul className="nav--wrapper">
                     <li className="nav--item">
                         <Link className="nav--link" to="/">Home</Link>
                     </li>
@@ -30,7 +30,7 @@ const Navbar = () => {
                     <li className="nav--item">
                         <Link className="nav--link" to="/Contact">Blogs</Link>
                     </li>
-                </ul>
+                </ul> */}
             </div>
     </nav>
 </>
