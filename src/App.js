@@ -9,6 +9,11 @@ import './App.css';
 function App() {
   return (
     <>
+   <Navbar></Navbar>
+    <About></About>
+    <TechnicalSkills></TechnicalSkills>
+    <Services></Services>
+    <Footer></Footer>
       {/* <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
